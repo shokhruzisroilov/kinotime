@@ -1,9 +1,10 @@
-import Card from '../components/common/Card'
+import { Hero } from '@/components/section'
 
 export default function Home() {
 	return (
-		<div>
-			<Card />
-		</div>
+		<>
+			<Hero />
+			<div className='h-200'></div>
+		</>
 	)
 }
