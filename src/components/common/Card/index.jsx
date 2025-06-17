@@ -11,9 +11,13 @@ const Card = () => {
 					className='object-cover'
 				/>
 			</div>
-			<div className="Card-info mt-[20px] leading-[120%]">
-					<h2 className='font-poppins text-white font-normal text-[23px] '>Deadpool & Wolverine</h2>
-					<p className='text-[#A473FF] font-bold text-[15px] mt-[2px] hover:underline duration-300 hover:cursor-pointer'>Action • Sci-fi</p>
+			<div className='Card-info mt-[20px] leading-[120%]'>
+				<h2 className='font-poppins text-white font-normal text-[23px] '>
+					Deadpool & Wolverine
+				</h2>
+				<p className='text-[#A473FF] font-bold text-[15px] mt-[2px] hover:underline duration-300 hover:cursor-pointer'>
+					Action • Sci-fi
+				</p>
 			</div>
 		</div>
 	)
