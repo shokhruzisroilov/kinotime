@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 const Card = () => {
 	return (
-		<div className='md:w-[267px] mx-auto h-[384px] '>
-			<div className='Card-image w-[267px] h-[318px] relative bg-red-500 mx-auto rounded-tr-[28px] rounded-bl-[28px]'>
+		<div className='w-[200px] h-[326px]   mx-auto  '>
+			<div className='Cara-image w-[200px] h-[260px]   relative  mx-auto rounded-tr-[28px] rounded-bl-[28px]'>
 				<Image
 					src='/image/kinoDefould.png'
 					alt='kino defould'
