@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "antd": "^5.26.1",
     "i18next": "^25.2.1",
     "i18next-http-backend": "^3.0.2",
     "next": "15.3.3",

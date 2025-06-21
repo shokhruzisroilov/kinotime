@@ -7,6 +7,7 @@ import LanguagesSwitcher from './LanguagesSwitcher'
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import '@/app/i18n'
+import SearchModal from './SearchModal'
 
 const Navbar = ({ openNav }) => {
 	const { t, i18n } = useTranslation()
@@ -68,8 +69,8 @@ const Navbar = ({ openNav }) => {
 
 			{/* Search & Language Switch */}
 			<div className='flex items-center gap-5'>
-				{/* Search Icon */}
-				<FiSearch className='text-white text-2xl xl:text-4xl cursor-pointer hover:text-yellow-400 transition' />
+				{/* Search modal */}
+				<SearchModal />
 				{/* Switch Languages */}
 				<LanguagesSwitcher />
 				{/* Humburger menu */}

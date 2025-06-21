@@ -22,3 +22,23 @@ body {
 	color: var(--foreground);
 	font-family: 'Poppins', sans-serif;
 }
+
+.custom-ant-modal .ant-modal-content {
+	@apply bg-black text-white rounded-xl w-full;
+}
+
+.custom-ant-modal .ant-modal-header {
+	@apply bg-black border-b border-neutral-700;
+}
+
+.custom-ant-modal .ant-modal-title {
+	@apply text-white;
+}
+
+.custom-ant-modal .ant-modal-close {
+	@apply text-white hover:text-yellow-400;
+}
+
+.custom-ant-modal .ant-modal-body {
+	@apply text-white;
+}
