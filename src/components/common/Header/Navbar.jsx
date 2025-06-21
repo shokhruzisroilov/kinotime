@@ -5,8 +5,11 @@ import { FiMenu, FiSearch } from 'react-icons/fi'
 import navLinks from '@/constants/navLinks'
 import LanguagesSwitcher from './LanguagesSwitcher'
 import { useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
+import '@/app/i18n'
 
 const Navbar = ({ openNav }) => {
+	const { t, i18n } = useTranslation()
 	const [navBg, setNavBg] = useState(false)
 	const [isMobile, setIsMobile] = useState(false)
 
@@ -56,7 +59,7 @@ const Navbar = ({ openNav }) => {
 								href={link.path}
 								className='font-normal lg:text-base xl:text-xl 2xl:text-2xl leading-[120%] tracking-[0]  hover:text-yellow-400'
 							>
-								{link.title}
+								{t(link.title)}
 							</Link>
 						</li>
 					))}

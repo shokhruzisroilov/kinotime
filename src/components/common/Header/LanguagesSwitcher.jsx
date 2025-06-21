@@ -6,7 +6,6 @@ const LanguagesSwitcher = () => {
 	const { t, i18n } = useTranslation()
 	const handleChangeLang = lang => {
 		i18n.changeLanguage(lang)
-		// localStorage.setItem('lang', lang)
 		document.documentElement.lang = lang
 	}
 	return (

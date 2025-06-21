@@ -1,3 +1,9 @@
 {
-	"welcome": "Добро пожаловать"
+	"Upcoming": "Скоро",
+	"Popular": "Популярно",
+	"Top Rated": "Лучшие",
+	"Now Playing": "Сейчас",
+	"Trending": "Тренды",
+	"Favorites": "Избранное",
+	"Select Language": "Язык"
 }

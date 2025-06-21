@@ -1,8 +1,12 @@
+'use client'
 import navLinks from '@/constants/navLinks'
 import Link from 'next/link'
 import { CgClose } from 'react-icons/cg'
+import { useTranslation } from 'react-i18next'
+import '@/app/i18n'
 
 const MobileNav = ({ closeNav, showNav }) => {
+	const { t, i18n } = useTranslation()
 	const navOpen = showNav ? 'translate-x-0' : 'translate-x-[-100%]'
 	return (
 		<div>
@@ -21,7 +25,7 @@ const MobileNav = ({ closeNav, showNav }) => {
 							key={link.title}
 							className='font-normal text-2xl leading-[120%] tracking-[0]  hover:text-yellow-400'
 						>
-							{link.title}
+							{t(link.title)}
 						</Link>
 					)
 				})}

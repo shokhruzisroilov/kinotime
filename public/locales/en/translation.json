@@ -1,3 +1,9 @@
 {
-	"welcome": "Welcom to our website!"
+	"Upcoming": "Upcoming",
+	"Popular": "Popular",
+	"Top Rated": "Top Rated",
+	"Now Playing": "Now Playing",
+	"Trending": "Trending",
+	"Favorites": "Favorites",
+	"Select Language": "Select Language"
 }
